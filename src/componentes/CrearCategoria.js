@@ -46,8 +46,8 @@ const CrearCategoria = () => {
         <Sidebar/>
         <main className='flex-1'>
         <div className='mt-8 flex justify-center'>
-        <h2 className="inline bg-gradient-to-r from-green-400 to-blue-500  hover:from-pink-500 hover:to-yellow-500 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-              Crear Categoría
+        <h2 className="inline bg-gradient-to-r from-green-400 to-blue-500  hover:from-pink-500 hover:to-yellow-500 bg-clip-text font-serif text-5xl tracking-tight text-transparent">
+              Crear Categoria
             </h2>
         </div>
         
@@ -57,7 +57,7 @@ const CrearCategoria = () => {
               onSubmit={onSubmit}
             >
               <div className='my-5'>
-                <label className='uppercase text-gray-600 block text-xl font-bold' >nombre de la categoria:</label>
+                <label className='uppercase text-gray-600 block text-xl font-serif' >Nombre</label>
                 <input
                   type="text"
                   id="nombre"
@@ -68,7 +68,7 @@ const CrearCategoria = () => {
                   onChange={onChange}
                 />
 
-              <label className='uppercase text-gray-600 block text-xl font-bold' >Subir una imagen: </label>
+              <label className='uppercase text-gray-600 block text-xl font-serif' >Insertar imagen: </label>
                 <input
                   type="text"
                   id="imagen"
@@ -83,7 +83,7 @@ const CrearCategoria = () => {
               <input 
                 type="submit"
                 value="Crear Categoria"
-                className="bg-gradient-to-r from-green-400 to-blue-500 -mb-5 w-full py-2 hover:from-pink-500 hover:to-yellow-500 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-violet-400 transition-colors"
+                className="bg-gradient-to-r from-green-400 to-blue-500 -mb-5 w-full py-2 hover:from-pink-500 hover:to-yellow-500 text-white uppercase font-serif rounded hover:cursor-pointer hover:bg-violet-400 transition-colors"
             />
 
             </form>

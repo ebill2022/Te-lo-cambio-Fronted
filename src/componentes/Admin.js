@@ -62,18 +62,18 @@ const Admin = () => {
       <>
       <Header/>
       <div className='md:flex md:min-h-screen '>
-        <Sidebar/>
-        <main className= 'flex-1'>
-   <h1 className="inline bg-gradient-to-r from-green-400 to-blue-500 -mb-5 w-full py-2 hover:from-pink-500 hover:to-yellow-500 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-    Lista de Categorias
-    </h1>
-    <table className="table table-bordered">
+      <Sidebar/>
+      <main className= 'w-3/4 flex-1 justify-center'>
+          <div class = "container mx-auto mt-2 md:mt-2 md:flex md:justify-center">
+          <h1 className="inline bg-gradient-to-r from-green-400 to-blue-500  hover:from-pink-500 hover:to-yellow-500  bg-clip-text font-serif text-5xl tracking-tight text-transparent py-5" _msthash="793222" _msttexthash="415337">Lista de Categorias</h1>
+          </div>
+   
+          
+    <table className="table table-bordered font-serif text-center text-gray-500 dark:text-gray-700">
         <thead className='bg-white'>
             <tr>
                 <th style={{ width: '10%' }}>Imagen</th> 
-                <th style={{ width: '50%', className:
-                
-                 'content-center' }}>Nombre</th> 
+                <th style={{ width: '50%'}}>Nombre</th> 
                 <th style={{ width: '15%' }}>Opciones</th>
             </tr>
         </thead>

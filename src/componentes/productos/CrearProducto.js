@@ -74,7 +74,7 @@ const CrearProducto = () => {
         <Sidebar/>
         <main className='flex-1'>
         <div className='mt-10 flex justify-center'>
-        <h1 className="inline bg-gradient-to-r from-indigo-200 via-violet-700 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
+        <h1 className="inline bg-gradient-to-r from-green-400 to-blue-500  hover:from-pink-500 hover:to-yellow-500 bg-clip-text font-serif text-5xl tracking-tight text-transparent">
               Crear Producto
             </h1>
         </div>
@@ -85,7 +85,7 @@ const CrearProducto = () => {
               onSubmit={onSubmit}
             >
               <div className='my-5'>
-                <label className='uppercase text-gray-600 block text-xl font-bold' >Nombre</label>
+                <label className='uppercase text-gray-600 block text-xl font-serif' >Nombre</label>
                 <input
                   type="text"
                   id="nombre"
@@ -95,7 +95,7 @@ const CrearProducto = () => {
                  value={nombre}
                   onChange={onChange}
                 />
-                <label className='uppercase text-gray-600 block text-xl font-bold' >descripción</label>
+                <label className='uppercase text-gray-600 block text-xl font-serif' >Descripción</label>
                 <input
                   type="text"
                   id="descripcion"
@@ -106,7 +106,7 @@ const CrearProducto = () => {
                   onChange={onChange}
                 />
 
-                <label className='uppercase text-gray-600 block text-xl font-bold' >stock</label>
+                <label className='uppercase text-gray-600 block text-xl font-serif' >Cantidad</label>
                 <input
                   type="number"
                   id="stock"
@@ -117,7 +117,7 @@ const CrearProducto = () => {
                   onChange={onChange}
                 />
 
-                <label className='uppercase text-gray-600 block text-xl font-bold' >precio</label>
+                <label className='uppercase text-gray-600 block text-xl font-serif' >Precio</label>
                 <input
                   type="number"
                   id="precio"
@@ -128,7 +128,7 @@ const CrearProducto = () => {
                   onChange={onChange}
                 />
 
-              <label className='uppercase text-gray-600 block text-xl font-bold' >Imagen</label>
+              <label className='uppercase text-gray-600 block text-xl font-serif' >Imagen</label>
                 <input
                   type="text"
                   id="imagen"
